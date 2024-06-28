@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.contenedor__juego{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.container__tabla{
+    width: 250px;
+    height: 300px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 2rem;
+}
+.incognito{
+    width: 80px;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    filter: blur(3px);
+}
+.descripcion{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tabla__numero{
+    width: 250px;
+    height: 180px;
+    /* background-color: rgb(174, 174, 230); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tabla__numero .numeros > button{
+ width: 30px;
+ height: 34px;
+ background-color: rgb(54, 103, 225);
+ color: rgb(255, 255, 255);
+ border: none;
+}
+.oportunidad{
+    width: 100px;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.contador__vida{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.play{
+visibility: hidden;
+   background-color: chartreuse;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.play > button{
+
+   padding: 10px 15px;
+    background-color: rgb(103, 161, 45);
+   color: white;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+}

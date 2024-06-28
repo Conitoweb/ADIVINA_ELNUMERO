@@ -1,0 +1,7 @@
+adivinar numero 
+
+[] crear una funcion que me de un numero aleatorio 1 al 10
+[] despues crear una funcion que verifique si el numero aleatorio es igual al numero elegido del user
+[] poner las vidas del usuario y si se equivoca que reste y al terminar que muestre un game over
+[] crear una interfaz del volver a jugar 
+

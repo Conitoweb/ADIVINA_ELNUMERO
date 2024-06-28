@@ -22,6 +22,7 @@ function play() { // iniciar juego y restablecer valores
        descripcion.innerText = "adivina el numero"
        document.querySelector('.play').style.visibility="hidden"
        descripcion.style.backgroundColor="white"
+       document.querySelector(".tabla__numero").style.visibility='visible'
     // borrar el numero mostrado en pantalla
     // mostrar la tabla de numeros
 }
@@ -32,8 +33,8 @@ numeros.forEach( (numero) => { //recorremos los botones y buscamos su valor y lo
        if(vidas <= 0){ // aqui hacemos un control de vidas para saber si el jugador ya perdio
         vidas++ 
         descripcion.innerText="Perdiste :("
-        descripcion.style.backgroundColor="red"
         document.querySelector(".play").style.visibility= "visible"
+        document.querySelector(".tabla__numero").style.visibility='hidden'
        }
         if(numeroAleatorio != valorNumero){ //si no acertas que reste las vidas
            document.querySelector('.contador__vida').textContent = `vidas :${--vidas}`

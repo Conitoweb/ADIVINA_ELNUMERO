@@ -90,3 +90,28 @@ visibility: hidden;
     font-size: 2rem;
     font-weight: bold;
 }
+
+@media  screen and (max-width:430px) {
+    
+.contenedor__juego{
+    position: relative;
+    flex-direction: column;
+}
+
+  
+.container__tabla{
+width: 300px;
+height: 400px;
+}
+
+.tabla__numero{
+   width: 300px;
+   height: 200px; 
+}
+.tabla__numero .numeros   button{
+  width: 50px;
+  height: 50px;
+
+}
+
+}
